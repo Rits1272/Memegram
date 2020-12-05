@@ -7,15 +7,14 @@ app.config["DEBUG"] = True
 db = SQLAlchemy(app)
 
 SQLALCHEMY_DATABASE_URI = "mysql+mysqlconnector://{username}:{password}@{hostname}/{databasename}".format(
-    username="rits1272",
-    password="ritikjainnanu",
-    hostname="rits1272.mysql.pythonanywhere-services.com",
-    databasename="rits1272$users",
+    username="********",
+    password="*********",
+    hostname="*********",
+    databasename="*******",
 )
 app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
 app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-
 
 
 class User(db.Model):
