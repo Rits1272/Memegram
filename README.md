@@ -31,7 +31,10 @@ To run flask server
 - run `pip install Flask`
 - run `python app.py`
 
-If you have any issue/difficulty regarding installation kindly ping me on slack.
+**Preferred Node version** : 14.15.1
+**Preferred Python version** : 3.8
+
+If you have any issue/difficulty always first try stackoverflow. Otherwise still you are unable to resolve any problem regarding anything kindly ping me on slack.
 
 ## Contribution Guidelines
 
